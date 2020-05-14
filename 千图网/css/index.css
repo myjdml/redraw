@@ -208,17 +208,22 @@ body {
 .icon_div_items:nth-child(3) {
     background-color: #C90001;
 }
-.icon_div:nth-child(1) div div {
+.icon_div>div:nth-child(1)>div {
     background-image: url("../img/spirit.png");
 }
-.icon_div:nth-child(2) div div {
+.icon_div>div:nth-child(2)>div {
     background-image: url("../img/spirit.png");
+    background-position: 0 -74px;
 }
-.icon_div:nth-child(3) div div {
+.icon_div>div:nth-child(3)>div {
     background-image: url("../img/spirit.png");
+    background-position: 0 -144px;
+
 }
-.icon_div:nth-child(4) div div {
+.icon_div>div:nth-child(4)>div {
     background-image: url("../img/spirit.png");
+    background-position: 0 -215px;
+
 }
 .icon_div_items h3 {
     color: white;
